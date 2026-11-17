@@ -236,7 +236,7 @@ zip. Архив и настройки не трогаются.
 ### Поддержать
 
 PariPariVault бесплатный и без рекламы. Если он тебе пригодился, можно сказать спасибо:
-[dalink.to/pariparikai](https://dalink.to/pariparikai). Фидбек и идеи: [X — @Pariparikai](https://x.com/Pariparikai)
+[donationalerts.com/r/pariparikai](https://www.donationalerts.com/r/pariparikai). Фидбек и идеи: [X — @Pariparikai](https://x.com/Pariparikai)
 или [issue на GitHub](https://github.com/PariPariKai/PariPariVault/issues). ⭐ на этой странице помогает другим её найти.
 Автор ещё и стример: [Twitch — PariPariKai](https://www.twitch.tv/pariparikai).
 
