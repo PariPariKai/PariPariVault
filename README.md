@@ -1,21 +1,43 @@
-<img src="logo.svg" width="96" alt="PariPariVault logo">
+<p align="center">
+  <img src="assets/banner-en.jpg" alt="PariPariVault — save your TikTok likes to your PC" width="100%">
+</p>
 
-# PariPariVault
+<p align="center">
+  <a href="https://github.com/PariPariKai/PariPariVault/releases/latest"><img src="https://img.shields.io/github/v/release/PariPariKai/PariPariVault?label=version&color=fe2c55&style=flat-square" alt="Latest version"></a>
+  <a href="https://github.com/PariPariKai/PariPariVault/releases"><img src="https://img.shields.io/github/downloads/PariPariKai/PariPariVault/total?color=25f4ee&style=flat-square" alt="Downloads"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-7c5cff?style=flat-square" alt="Windows 10 and 11">
+  <img src="https://img.shields.io/badge/price-free-2ea043?style=flat-square" alt="Free">
+</p>
 
-**A private archive of your TikTok likes and favorites, on your own computer.** For Windows 10/11.
+<p align="center">
+  <a href="https://github.com/PariPariKai/PariPariVault/releases/latest"><b>⬇&nbsp;&nbsp;Download for Windows</b></a>
+  &nbsp;·&nbsp; <a href="#по-русски">По-русски</a>
+</p>
 
-*Formerly KaiVault. Updating from KaiVault keeps your archive, settings and TikTok login; the settings folder is renamed from KaiVault to PariPariVault on the first start.*
+**PariPariVault saves every TikTok video you liked or added to favorites to your own computer** — and makes
+them searchable, even by what is *said* in the video. Creators delete videos, TikTok removes them, accounts get
+banned: your copy stays.
 
-[По-русски ↓](#по-русски)
+<p align="center">
+  <img src="assets/demo-en.webp" alt="Searching the archive by speech and opening a video" width="100%">
+</p>
 
 - **Everything stays with you.** Videos, captions and authors live in a folder on your disk. No servers,
-  no accounts, no subscriptions. You can watch your archive offline.
+  no accounts, no subscriptions. Watch your archive offline.
 - **Find any video in seconds.** Search by caption, author, hashtags and TikTok's own categories. Turn on speech
   search and it also finds what's said in the video and the text shown on screen.
-- **Deleted on TikTok, still yours.** Creators delete videos and TikTok blocks them. PariPariVault marks the ones
-  that are gone, and your copy stays.
+- **Deleted on TikTok, still yours.** PariPariVault marks the videos that are gone, and your copy stays.
 - **Recognises videos you saved by hand.** Point it to a folder of old downloads. It works out which TikTok
   videos they are and adds author, caption, hashtags and categories. Your files are never moved or changed.
+
+| | |
+|:---:|:---:|
+| <img src="assets/en-grid.jpg" alt="The archive: every like by month"> | <img src="assets/en-search.jpg" alt="Search finds words spoken in the videos"> |
+| **Your whole archive, month by month** | **Search finds what's said and written in videos** |
+| <img src="assets/en-player.jpg" alt="Player with the speech transcript"> | <img src="assets/en-gone.jpg" alt="Videos deleted on TikTok stay in the archive"> |
+| **Click a line of speech to jump there** | **Deleted on TikTok — still in your archive** |
+
+<sub>Screenshots show a demo archive: the videos, authors and captions are made up (AI-generated pictures).</sub>
 
 PariPariVault is not affiliated with TikTok or ByteDance. It only saves what *you* liked or added to favorites.
 
@@ -23,7 +45,8 @@ PariPariVault is not affiliated with TikTok or ByteDance. It only saves what *yo
 
 Download the [latest release](https://github.com/PariPariKai/PariPariVault/releases/latest):
 
-- `PariPariVault-x.y.z-setup.exe` is the installer. It installs for your user only, so no admin rights are needed.
+- `PariPariVault-x.y.z-setup.exe` is the installer. It installs for your user only, so no admin rights are needed,
+  and it updates itself.
 - `PariPariVault-x.y.z-portable.zip` runs without installing: unpack it anywhere and start `PariPariVault.exe`.
   Its settings stay next to it.
 
@@ -57,7 +80,8 @@ stays, so refresh the export every couple of months.
 
 - Search by caption, author (`@name`), hashtag (`#tag`) and phrase (`"a few words"`). Partial words and
   case don't matter.
-- Timeline by month, TikTok categories (Comedy › Pets › …), filters for dates, photos or videos, and likes or favorites.
+- Timeline by month, TikTok categories (Comedy › Pets › …), countries, sounds, filters for dates, photos or videos,
+  and likes or favorites.
 - Player: ← → previous and next, ↑ ↓ volume, Esc to close. Clicking a transcript line jumps to that moment.
 - 🎲 **Random** shows one random video, respecting the current filters. ✨ **Nostalgia** shows what you liked
   on these days in earlier years.
@@ -104,10 +128,13 @@ by a per-session key.
 If you log in to TikTok for 18+ videos, you type your password on TikTok's own page. PariPariVault never sees it.
 It stores the session cookies in your archive's `data` folder and uses them only for those videos.
 
+*Formerly KaiVault. Updating from KaiVault keeps your archive, settings and TikTok login.*
+
 ## Support
 
 PariPariVault is free and has no ads. If it's useful to you, you can say thanks:
-[ko-fi.com/pariparikai](https://ko-fi.com/pariparikai). Feedback and ideas: [X — @Pariparikai](https://x.com/Pariparikai).
+[ko-fi.com/pariparikai](https://ko-fi.com/pariparikai). Feedback and ideas: [X — @Pariparikai](https://x.com/Pariparikai)
+or [open an issue](https://github.com/PariPariKai/PariPariVault/issues). A ⭐ on this page helps other people find it.
 
 ## License
 
@@ -118,9 +145,21 @@ Bundled third-party components and their licenses are listed in [`THIRD-PARTY-NO
 
 ## По-русски
 
-*Раньше программа называлась KaiVault. Обновление с KaiVault сохраняет архив, настройки и вход в TikTok; папка настроек при первом запуске переименовывается из KaiVault в PariPariVault.*
+<p align="center">
+  <img src="assets/banner-ru.jpg" alt="PariPariVault — пока интернет есть, качай архив" width="100%">
+</p>
 
-**PariPariVault — личный архив твоих лайков и избранного из TikTok на твоём компьютере.** Для Windows 10/11.
+<p align="center">
+  <a href="https://github.com/PariPariKai/PariPariVault/releases/latest"><b>⬇&nbsp;&nbsp;Скачать для Windows</b></a>
+</p>
+
+**PariPariVault сохраняет на твой компьютер все видео из TikTok, которые ты лайкнул или добавил в избранное**, — и
+по ним можно искать, даже по тому, что *говорят* в видео. Авторы удаляют ролики, TikTok их блокирует, аккаунты
+банят — а у тебя всё остаётся.
+
+<p align="center">
+  <img src="assets/demo-ru.webp" alt="Поиск по речи и просмотр видео" width="100%">
+</p>
 
 - **Всё хранится у тебя.** Видео, описания и авторы лежат в папке на диске. Никаких серверов, аккаунтов и подписок.
   Смотреть можно без интернета.
@@ -130,13 +169,22 @@ Bundled third-party components and their licenses are listed in [`THIRD-PARTY-NO
 - **Узнаёт видео, сохранённые вручную.** Укажи папку со старыми загрузками — программа поймёт, что это за ролики,
   и подтянет автора, описание, хэштеги и категории. Сами файлы не двигаются и не меняются.
 
+| | |
+|:---:|:---:|
+| <img src="assets/ru-grid.jpg" alt="Архив: все лайки по месяцам"> | <img src="assets/ru-search.jpg" alt="Поиск находит слова, сказанные в видео"> |
+| **Весь архив по месяцам** | **Поиск по тому, что говорят и пишут в видео** |
+| <img src="assets/ru-player.jpg" alt="Плеер с расшифровкой речи"> | <img src="assets/ru-gone.jpg" alt="Удалённые из TikTok видео остаются в архиве"> |
+| **Клик по фразе — видео на этом месте** | **Удалили из TikTok — а у тебя осталось** |
+
+<sub>На скриншотах демо-архив: видео, авторы и подписи выдуманы (картинки сгенерированы ИИ).</sub>
+
 PariPariVault не связан с TikTok и ByteDance.
 
 ### Установка
 
 Скачать: [последний релиз](https://github.com/PariPariKai/PariPariVault/releases/latest).
 
-- `PariPariVault-x.y.z-setup.exe` — установщик. Права администратора не нужны.
+- `PariPariVault-x.y.z-setup.exe` — установщик. Права администратора не нужны, дальше программа обновляется сама.
 - `PariPariVault-x.y.z-portable.zip` — версия без установки: распаковать куда угодно и запустить `PariPariVault.exe`.
 
 Если Windows пишет «Система Windows защитила ваш компьютер», нажми **Подробнее → Выполнить в любом случае**.
@@ -183,10 +231,13 @@ zip. Архив и настройки не трогаются.
 Телеметрии нет. Если войти в TikTok для видео 18+, пароль вводится на странице самого TikTok, и программа его
 не видит.
 
+*Раньше программа называлась KaiVault. Обновление с KaiVault сохраняет архив, настройки и вход в TikTok.*
+
 ### Поддержать
 
 PariPariVault бесплатный и без рекламы. Если он тебе пригодился, можно сказать спасибо:
-[dalink.to/pariparikai](https://dalink.to/pariparikai). Фидбек и идеи: [X — @Pariparikai](https://x.com/Pariparikai).
+[dalink.to/pariparikai](https://dalink.to/pariparikai). Фидбек и идеи: [X — @Pariparikai](https://x.com/Pariparikai)
+или [issue на GitHub](https://github.com/PariPariKai/PariPariVault/issues). ⭐ на этой странице помогает другим её найти.
 Автор ещё и стример: [Twitch — PariPariKai](https://www.twitch.tv/pariparikai).
 
 ### Лицензия
